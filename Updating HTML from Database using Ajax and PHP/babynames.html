@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Assignment 3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/babynames.css" type="text/css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="js/babynames.js"></script>
+
+</head>
+<body>
+
+      <div class="container">
+          <div class="page-header">
+              <h1>Social Security Administration USA</h1>
+          </div>
+          <div class="row">
+              <form name="famousbabynames">
+                <p>Select the year for which you want the top-five popular names for both girls and boys:
+                  <select name='year' id='year'>
+                    <option value="2004" selected="selected">2004</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                    <option value="2007">2007</option>
+                    <option value="2008">2008</option>
+                    <option value="2009">2009</option>
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                </select>
+
+              <input type="button" value="Show Results" onclick="getData()" />
+            </p>
+              </form>
+              <br>
+              </div>
+              <div class="divTable">
+                    <div class="headrow">
+                        <div class="col-lg-6 col-sm-6" id="male">Male Names</div>
+                        <div class="col-lg-6 col-sm-6" id="female">Female Names</div>
+                    </div>
+                    <div class="divRow" >
+                        <div class="divCell col-lg-6 col-sm-6" id="maleDiv"><b>The male names will be listed here...</b></div>
+                        <div class="divCell col-lg-6 col-sm-6" id="femaleDiv"><b>The female names will be listed here...</b></div>
+                    </div>
+              </div>
+      </div>
+</body>
+</html>

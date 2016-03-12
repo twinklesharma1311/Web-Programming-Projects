@@ -1,0 +1,47 @@
+
+div.divTable
+   {
+       display:  table;
+       width:auto;
+       background-color:#eee;
+       border:1px solid  #666666;
+       border-spacing:5px;
+       text-align: left;
+
+   }
+
+div.headrow
+  {
+         text-align: center;
+         font-weight: bold;
+  }
+
+div.divRow
+   {
+      display:table-row;
+   }
+
+
+div.divCell
+   {
+       float:left;
+       display:table-column;
+       border:1px solid black;
+   }
+
+
+div#male, div#maleDiv{
+    background-color: #99ccff;
+    width: 300px;
+    border: 1px solid black;
+    margin:auto;
+
+}
+
+div#female, div#femaleDiv {
+    background-color: pink;
+    width: 300px;
+    border: 1px solid black;
+    margin:auto;
+
+}
